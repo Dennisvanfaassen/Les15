@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #002E2C;
+}
+
+head {
+  background-color: #fff;
+}
+
+body {
+  background-color: #FDFDFA;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header {
+  background-color: #035E7B;
+  height: 300px;
+  width: 100%;
+  margin: 0px 0px 18px 0px;
+}
+
+header h1 {
+  padding: 25px;
+  color: #fff;
+}
+
+nav {
+  position: sticky;
+  top: 300px;
+}
+
+nav ul {
+  padding: 5px;
+  list-style-type: none;
+  background-color: #06B5EF;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #F3F3F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #0596C7;
+  color: #E5E6DB;
+}
+
+.content {
+  padding: 50px;
+}
+
+body p {
+  padding-bottom: 15px;
+}
+
+.footer {
+    background-color: #C2C5AA;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:120px;
+}
+
+footer p {
+  color: white;
+  padding: 5px 5px 5px 50px;
+}
+
+table {
+  width: 100%;
+}
+
+table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td{
+  height: 50px;
+}
+
+.titel {
+  font-weight: bold;
+}
+
+.tabellen {
+  padding: 25px;
+}
+
+/* contactformulier */
+#contact-formulier {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact-formulier input[type="text"],
+#contact-formulier input[type="email"],
+#contact-formulier textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-formulier label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contact-formulier input[type="submit"] {
+  background-color: #04789F;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-formulier input[type="submit"]:hover {
+  background-color: #24C4F9;
+}
